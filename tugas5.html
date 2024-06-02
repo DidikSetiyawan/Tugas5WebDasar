@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Volume Calculation</title>
+</head>
+<body>
+    <h1>Volume Calculations</h1>
+    
+    <div id="kubus">
+        <h2>Volume Kubus</h2>
+        <input type="number" id="sisiKubus" placeholder="Masukkan sisi kubus">
+        <br>
+        <br>
+        <button onclick="hitungVolumeKubus()">Hitung</button>
+        <p id="resultKubus"></p>
+    </div>
+
+    <div id="balok">
+        <h2>Volume Balok</h2>
+        <input type="number" id="panjangBalok" placeholder="Masukkan panjang">
+        <input type="number" id="lebarBalok" placeholder="Masukkan lebar">
+        <input type="number" id="tinggiBalok" placeholder="Masukkan tinggi">
+        <br>
+        <br>
+        <button onclick="hitungVolumeBalok()">Hitung</button>
+        <p id="resultBalok"></p>
+    </div>
+
+    <div id="prisma">
+        <h2>Volume Prisma Segitiga</h2>
+        <input type="number" id="alasPrisma" placeholder="Masukkan alas">
+        <input type="number" id="tinggiSegitigaPrisma" placeholder="Masukkan tinggi segitiga">
+        <input type="number" id="tinggiPrisma" placeholder="Masukkan tinggi prisma">
+        <br>
+        <br>
+        <button onclick="hitungVolumePrisma()">Hitung</button>
+        <p id="resultPrisma"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
